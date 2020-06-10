@@ -1,0 +1,25 @@
+.form-one
+{
+    background-color: black;
+    color: white;
+}
+.form-pwd
+{
+    background-color: tomato;
+    color: white;
+}
+
+.form-reset
+{
+    background-color: yellow;
+}
+
+.form-radio
+{
+    background-color: olive;
+}
+
+.form-checkbox
+{
+    background-color: palegreen;
+}

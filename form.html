@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO 2020</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form action="#" class="form-color">
+        <label for="color">Seleccione su color: </label>
+        <input type="color"><br><br>
+    </form>
+    <form action="#" class="form-date">
+        <label for="date">Seleccione fecha de su compleaños: </label>
+        <input type="date" id="date" name="date"><br><br>
+    </form>
+
+    <form action="#" class="form-rango">
+        <label for="rango">Ingresar su fecha</label>
+        <input type="date" id="date" name="date" min="2019-02-21"><br><br>
+    </form>
+
+    <form action="#">
+        <label for="hora">Seleccione su hora</label>
+        <input type="datetime-local" id="hora" name="hora"> <br><br><br>
+    </form>
+
+    <form action="#">
+        <label for="file">Seleccione su archivo:</label>
+        <input type="file"><br><br>
+    </form>
+
+    <form action="#">
+        <label for="mes">Seleccione su mes y año</label>
+        <input type="month" id="mes" name="mes"><br><br>
+    </form>
+    <form action="#">
+        <label for="number">Seleccione un número entre el 1 - 5</label>
+        <input type="number" id="number" name="number" min="1" max="5"><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <form action="#">
+        <label for="busqueda">Ingrese su busqueda: </label>
+        <input type="search" name="busqueda" id="busqueda" autocomplete="on">
+    </form>
+
+    <form action="#" method="GET" target="_blank" class="form-one"
+    autocomplete="off">
+        <br>
+        <label for="name"> Nombre:</label>
+        <br>
+        <input type="text" name="name" id="name" placeholder="Ingrese su nombre"
+        autocomplete="on"><br><br>
+        <label for="lname">Apellidos:</label><br>
+        <input type="text" name="lname" id="lname" placeholder="Apellido">
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <form action="#" class="form-pwd">
+        <br><br>
+        <label for="pwd">Password</label>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <input type="submit" value="Aceptar">
+    </form>
+    <form action="" class="form-reset" target="_blank">
+        <br><br>
+        <label for="name">Nombre</label>
+        <input type="text" placeholder="Nombre" name="name" id="name"><br><br>
+        <label for="lname">Apellido</label>
+        <input type="text" placeholder="Apellido" size="80"> <br><br>
+        <input type="submit" value="Aceptar">
+        <input type="reset" value="Reset">
+    </form>
+        <form action="#" class="form-radio">
+            <label for="">SELECCIONE SU SEXO</label><br></br>
+            <input type="radio" id="men" name="genero" value="Hombre">
+            <label for="men">Hombre</label>
+            <input type="radio" id="woman" name="genero" value="Mujer">
+            <label for="woman">Mujer</label>
+            <input type="radio" id="other" name="genero" value="Otro">
+            <label for="other">Otro</label><br><br>
+            <input type="submit" value="Aceptar">
+            <input type="reset" value="resetear">
+        </form>
+        <form action="#" class="form-checkbox">
+            <br>
+            <input type="checkbox" id="car" name="car" value="Carro">
+            <label for="car">Carro</label><br>
+            <input type="checkbox" id="moto" name="car" value="Moto">
+            <label for="moto">Moto</label><br>
+            <input type="checkbox" id="bici" name="car" value="Bicicleta">
+            <label for="bici">Bicicleta</label><br><br>
+            <input type="submit" value="Aceptar">
+        </form>
+
+
+</body>
+</html>
